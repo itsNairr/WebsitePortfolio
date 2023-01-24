@@ -1,0 +1,98 @@
+
+* {
+    transition: all 400ms ease;
+}
+.Nav{
+    background-color: white;
+    display: flex;
+    position: fixed;
+    left: 2rem;
+    top: 50%;
+    height: 30%;
+    min-height: 200px;
+    width: 3rem;
+    transform: translateY(-50%);
+    border-radius: 2rem;
+    font-size: 1.25rem;
+    z-index: 100;
+}
+
+.Logos{
+    /* background-color: blue; */
+    padding: 5px;
+    display: flex;/* Flex box to allign logos */
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+}
+
+.Label{
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    justify-content: space-evenly;
+    left: 3.25rem;
+    top: 50%;
+    height: 100%;
+    min-height: 200px;
+    transform: translateY(-50%);;
+    font-size: 0.75rem;
+}
+
+.Label > *{
+    background-color: white;
+    text-align: center;
+    font-weight: bold;
+    padding: 4px;
+    border-radius: 1.5rem;
+    opacity: 1;
+
+}
+
+.Logos > * { /* Direct children of logos aka the individual icons */
+    background-color: transparent;
+    width: 13%;
+    height: 100%;
+    border-radius: 1.5rem;
+    font-size: 100%;
+}
+
+.Logos > *:hover{
+    transform: scale(1.25);
+}
+
+.open {
+    transform: scale(1);
+    /* width: 100%; */
+}
+.closed {
+    transform: scale(0);
+    opacity: 0;
+}
+
+/* .BInfoOpen {
+    font-weight: bold;
+    padding: 10px;
+    background-color: white;
+    width: 200px;
+    margin: 10px;
+    border-radius: 0 1.5rem 1.5rem 0;
+    font-size: xx-small;
+}
+
+.BInfoClosed {
+    background-color: white;
+    opacity: 0;
+    width: 0;
+}
+
+.Popup{
+    display: flex;
+    background-color: white;
+    width: 40%; */
+/* } */
+
+.Logos > *:active{
+    opacity : 0.3;
+}

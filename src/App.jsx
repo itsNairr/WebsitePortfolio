@@ -12,12 +12,14 @@ import Footer from './components/footer/Footer'
 const App = () => {
   return (
     <>
+    <div className='Content'>
         <Header />
         <Nav />
         <About />
         <Portfolio />
         <Experience />
         <Education />
+    </div>    
         <Footer />
     </>
   )

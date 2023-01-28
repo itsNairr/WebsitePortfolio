@@ -24,8 +24,8 @@ const Nav = () => {
   const [contactOpen, setContactOpen] = useState(false);
 
   return (<>
-    <div class = "Nav">
-      <div class = "Logos">
+    <div className = "Nav">
+      <div className = "Logos">
       <ButtonLogo setState={setHeaderOpen} onClick={() => console.log("Header")} Icon={() => <AiFillHome />}/> 
       <ButtonLogo setState={setAboutOpen} onClick={() => console.log("About")} Icon={() => <BsFillPersonFill />}/>  
       <ButtonLogo setState={setPortfolioOpen} onClick={() => console.log("Portfolio")} Icon={() => <AiFillBook />}/>  
@@ -33,7 +33,7 @@ const Nav = () => {
       <ButtonLogo setState={setEducationOpen} onClick={() => console.log("Education")} Icon={() => <IoSchool />}/>  
       <ButtonLogo setState={setContactOpen} onClick={() => console.log("Contact")} Icon={() => <BsFillTelephoneFill />}/> 
       </div>
-      <div class = "Label">
+      <div className = "Label">
       <span className={headerOpen ? "open" : "closed"}>Header</span>
       <span className={aboutOpen ? "open" : "closed"}>About</span>
       <span className={portfolioOpen ? "open" : "closed"}>Portfolio</span>

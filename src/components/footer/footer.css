@@ -1,16 +1,10 @@
 .Footer {
     background-color: black;
-    position: fixed;
+    position: sticky;
+    top: 100vh;
     width: 100vw;
     height: 25vw;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    padding-bottom:60px;
-    
-}
-
-.Footer > .Contact{
+    bottom: 0;      
 }
 
 .Contact > .GitHub {

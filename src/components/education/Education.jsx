@@ -3,7 +3,7 @@ import './education.css'
 
 const Education = () => {
   return (
-    <div>Education</div>
+    <div className='rectangle'>Education</div>
   )
 }
 

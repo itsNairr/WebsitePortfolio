@@ -1,0 +1,5 @@
+.Portfolio{
+    background-image: url(/src/assets/portfolio.svg);
+    height: 100vh;
+    background-size: cover;
+}

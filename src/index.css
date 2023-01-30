@@ -35,10 +35,14 @@ html { /* Allows smooth scrolling */
 /* sets the font */
 body {
     font-family: 'Inter', sans-serif;
-    background: var(--color-bg);
     color: var(--textc);
     line-height: 1.7;
     /*background-image: url(../src/assets/dots1.png); */
 }
 
 /* GENERAL */
+
+.Content{
+    margin-top: 75px;
+    margin-bottom: 0px;
+}

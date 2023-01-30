@@ -34,7 +34,7 @@ const Nav = () => {
       <ButtonLogo setState={setContactOpen} onClick={() => console.log("Contact")} Icon={() => <BsFillTelephoneFill />}/> 
       </div>
       <div className = "Label">
-      <span className={headerOpen ? "open" : "closed"}>Header</span>
+      <span className={headerOpen ? "open" : "closed"}>Home</span>
       <span className={aboutOpen ? "open" : "closed"}>About</span>
       <span className={portfolioOpen ? "open" : "closed"}>Portfolio</span>
       <span className={experienceOpen ? "open" : "closed"}>Experience</span>

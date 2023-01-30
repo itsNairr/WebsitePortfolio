@@ -15,6 +15,7 @@
     border-radius: 2rem;
     font-size: 1.25rem;
     z-index: 100;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .Logos{
@@ -70,28 +71,6 @@
     transform: scale(0);
     opacity: 0;
 }
-
-/* .BInfoOpen {
-    font-weight: bold;
-    padding: 10px;
-    background-color: white;
-    width: 200px;
-    margin: 10px;
-    border-radius: 0 1.5rem 1.5rem 0;
-    font-size: xx-small;
-}
-
-.BInfoClosed {
-    background-color: white;
-    opacity: 0;
-    width: 0;
-}
-
-.Popup{
-    display: flex;
-    background-color: white;
-    width: 40%; */
-/* } */
 
 .Logos > *:active{
     opacity : 0.3;

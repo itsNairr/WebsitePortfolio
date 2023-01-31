@@ -7,11 +7,76 @@
 .Headrect{
     position: absolute;
     background-color: white;
-    width: 75%;
+    width: 80%;
     height: 75%;
     top: 50%;
     left:50%;
+    min-height: 700px;
     transform: translate(-50%, -50%);
     border-radius: 2.5rem;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
+.Intro1{
+    position: absolute;
+    left: 5%;
+    top: 5%;
+    
+    font-weight: 900;
+    font-size: 7vh;
+    line-height: 73px;
+}
+
+.Intro2{
+    position: absolute;
+    left: 5%;
+    top: 15%;
+    
+    font-weight: 900;
+    font-size: 7vh;
+    line-height: 73px;
+    
+    color:black;
+    
+}
+
+.Intro2:hover{
+    transform: scale(1.05);
+    color: grey;
+}
+
+.Im{
+    color: grey;
+}
+
+.Pfp{
+    position: absolute;
+    bottom: 0;
+    left:50%;
+    transform: translate(-50%);
+    border-radius: 40% 40% 0 0;
+}
+
+.Intro3{
+    position: absolute;
+    right: 5%;
+    top: 5%;
+    
+    font-weight: 900;
+    font-size: 3vw;
+    line-height: 73px;
+}
+
+.Intro4{
+    position: absolute;
+    right: 5%;
+    top: 15%;
+    
+    font-weight: 900;
+    font-size: 3vw;
+    line-height: 73px;
+    
+    color:black;
+    
+}
+

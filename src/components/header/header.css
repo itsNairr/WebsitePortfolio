@@ -4,45 +4,29 @@
     background-size: cover;
 }
 
-.Headrect{
-    position: absolute;
-    background-color: white;
-    width: 80%;
-    height: 75%;
-    top: 50%;
-    left:50%;
-    min-height: 700px;
-    transform: translate(-50%, -50%);
-    border-radius: 2.5rem;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+
 
 .Intro1{
     position: absolute;
-    left: 5%;
-    top: 5%;
+    left: 50%;
+    top: 30%;
+    width: 38.5vw;
     
     font-weight: 900;
-    font-size: 7vh;
-    line-height: 73px;
-}
+    font-size: 5vw;
+    transform: translate(-50%);
 
-.Intro2{
-    position: absolute;
-    left: 5%;
-    top: 15%;
+    overflow: hidden;
+        border-right: 5px solid black;  
+        white-space: nowrap;    
+        margin: 0 auto;
+        animation: typewriter 2s steps(15) 1s 1 normal both,
+        blinkTextCursor 500ms steps(30) infinite normal;
     
-    font-weight: 900;
-    font-size: 7vh;
-    line-height: 73px;
-    
-    color:black;
-    
-}
-
-.Intro2:hover{
-    transform: scale(1.05);
-    color: grey;
 }
 
 .Im{
@@ -53,30 +37,30 @@
     position: absolute;
     bottom: 0;
     left:50%;
+    max-width: 60%;
+    max-height: 85%;
+    height: auto;
+    width: auto;
     transform: translate(-50%);
-    border-radius: 40% 40% 0 0;
+    border-radius: 25% 25% 0 0;
 }
 
 .Intro3{
     position: absolute;
-    right: 5%;
-    top: 5%;
+    text-align: center;
+    left: 50%;
+    top: 55%;
     
     font-weight: 900;
     font-size: 3vw;
-    line-height: 73px;
+    transform: translate(-50%);
 }
 
-.Intro4{
-    position: absolute;
-    right: 5%;
-    top: 15%;
-    
-    font-weight: 900;
-    font-size: 3vw;
-    line-height: 73px;
-    
-    color:black;
-    
+@keyframes typewriter{
+  from{width: 0;}
+  to{width: 38.5vw;}
 }
-
+@keyframes blinkTextCursor{
+  from{border-right-color: black;}
+  to{border-right-color: transparent;}
+}

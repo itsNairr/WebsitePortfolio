@@ -28,7 +28,7 @@ const Footer = () => {
         <div className="CRText">Copyright © 2023 Hari Nair </div>
         <div className="Line1"></div>
         <div className="Line2"></div>
-        <div className="LinkedIn"><SocialIcon url="https://www.linkedin.com/in/hari-nair-0a1627251/_blank" rel="noreferrer" target="_blank" bgColor='transparent' fgColor='white'/></div>
+        <div className="LinkedIn"><SocialIcon url="https://www.linkedin.com/in/harinairr" rel="noreferrer" target="_blank" bgColor='transparent' fgColor='white'/></div>
         <div className="GitHub"><SocialIcon url="https://github.com/itsNairr" rel="noreferrer" target="_blank" bgColor='transparent' fgColor='white'/></div>
         <div className="Instagram"><SocialIcon url="https://www.instagram.com/harinairr/" rel="noreferrer" target="_blank" bgColor='transparent' fgColor='white'/></div>
         <div className="Mail"><SocialIcon url="mailto:hariknair139@gmail.com" rel="noreferrer" target="_blank" bgColor='transparent' fgColor='white'/></div> 

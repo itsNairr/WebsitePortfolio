@@ -3,7 +3,9 @@
     transition: all 400ms ease;
 }
 .Nav{
-    background-color: white;
+    background-color: transparent;
+    opacity: 0.7;
+    transition: 5s;
     display: flex;
     position: fixed;
     left: 2rem;
@@ -14,7 +16,7 @@
     transform: translateY(-50%);
     border-radius: 2rem;
     font-size: 1.25rem;
-    z-index: 100;
+    z-index: 1001;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -42,7 +44,8 @@
 }
 
 .Label > *{
-    background-color: white;
+    background-color: transparent;
+    backdrop-filter: blur(10px);
     text-align: center;
     font-weight: bold;
     padding: 4px;
@@ -61,6 +64,12 @@
 
 .Logos > *:hover{
     transform: scale(1.25);
+}
+
+.Nav:hover{
+    opacity: 1;
+    transition: 1s;
+    background-color: white;
 }
 
 .open {

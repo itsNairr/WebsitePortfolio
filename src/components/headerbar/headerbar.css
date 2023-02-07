@@ -8,7 +8,7 @@
 
 .Barmain > .Download{
     position: absolute;
-    background-color: white;
+    background-color: transparent;
     font-size: medium;
     font-weight: bolder;
     margin-left: 1%;
@@ -26,12 +26,11 @@
 }
 
 .Barmain > .Bar{
-    background-color: white;
     height: 70px;
-}
-.Barmain > .Barline{
-    background-color: rgb(55, 54, 54);
-    height: 5px;
+    opacity: 1;
+    /* background-color: white; */
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .Logo{

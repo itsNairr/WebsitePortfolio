@@ -1,5 +1,4 @@
 import React from 'react'
-
 import Header from './components/header/Header'
 import Nav from './components/nav/Nav'
 import About from './components/about/About'
@@ -8,6 +7,10 @@ import Experience from './components/experience/Experience'
 import Education from './components/education/Education'
 import Footer from './components/footer/Footer'
 import Headerbar from './components/headerbar/Headerbar'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
+AOS.init();
 
 //Putting it all together
 const App = () => {

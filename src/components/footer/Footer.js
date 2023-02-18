@@ -20,7 +20,7 @@ const Footer = () => {
 }
 
   return (
-    <div className="Footer">
+    <div id="footer" className="Footer">
       <div className="Contact">
         <div className="cText">Contact me!</div>
         <div className="SMText">Send a message.</div>

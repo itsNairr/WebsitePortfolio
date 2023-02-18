@@ -7,11 +7,11 @@ AOS.init();
 
 const About = () => {
   return (
-    <div className='About'>
+    <div id="about" className='About'>
       <div className='Aboutrect'>
       <div data-aos='fade-up'className='Abouttitle'>About</div>
       <p data-aos='fade-right' className='Aboutp'>
-      • I'm anambitious <span className='bold'>engineering</span> student from Barrie, Ontario
+      • I'm an anambitious <span className='bold'>engineering</span> student from Barrie, Ontario
       </p>
       <p data-aos='fade-left' className='Aboutp1'>
       • I have a keen eye for detail and a natural aptitude for <span className='bold'>problem-solving</span>. 

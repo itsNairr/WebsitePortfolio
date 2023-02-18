@@ -4,6 +4,7 @@
 }
 .Nav{
     background-color: transparent;
+    backdrop-filter: blur(10px);
     opacity: 0.7;
     transition: 5s;
     display: flex;

@@ -26,12 +26,12 @@ const Nav = () => {
   return (<>
     <div className = "Nav">
       <div className = "Logos">
-      <ButtonLogo setState={setHeaderOpen} onClick={() => console.log("Header")} Icon={() => <AiFillHome />}/> 
-      <ButtonLogo setState={setAboutOpen} onClick={() => console.log("About")} Icon={() => <BsFillPersonFill />}/>  
-      <ButtonLogo setState={setPortfolioOpen} onClick={() => console.log("Portfolio")} Icon={() => <AiFillBook />}/>  
-      <ButtonLogo setState={setExperienceOpen} onClick={() => console.log("Experience")} Icon={() => <MdWork />}/>  
-      <ButtonLogo setState={setEducationOpen} onClick={() => console.log("Education")} Icon={() => <IoSchool />}/>  
-      <ButtonLogo setState={setContactOpen} onClick={() => console.log("Contact")} Icon={() => <BsFillTelephoneFill />}/> 
+      <ButtonLogo setState={setHeaderOpen} onClick={() => document.getElementById('header').scrollIntoView()} Icon={() => <AiFillHome />}/>
+      <ButtonLogo setState={setAboutOpen} onClick={() => document.getElementById('about').scrollIntoView()} Icon={() => <BsFillPersonFill />}/>  
+      <ButtonLogo setState={setPortfolioOpen} onClick={() => document.getElementById('portfolio').scrollIntoView()} Icon={() => <AiFillBook />}/>  
+      <ButtonLogo setState={setExperienceOpen} onClick={() => document.getElementById('experience').scrollIntoView()} Icon={() => <MdWork />}/>  
+      <ButtonLogo setState={setEducationOpen} onClick={() => document.getElementById('education').scrollIntoView()} Icon={() => <IoSchool />}/>  
+      <ButtonLogo setState={setContactOpen} onClick={() => document.getElementById('footer').scrollIntoView()} Icon={() => <BsFillTelephoneFill />}/> 
       </div>
       <div className = "Label">
       <span className={headerOpen ? "open" : "closed"}>Home</span>

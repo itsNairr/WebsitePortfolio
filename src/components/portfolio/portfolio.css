@@ -1,5 +1,107 @@
 .Portfolio{
-    background-image: url(/src/assets/portfolio.svg);
+    /* background-image: url(/src/assets/experience.svg); */
     height: 100vh;
     background-size: cover;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1920' height='1080' preserveAspectRatio='none' viewBox='0 0 1920 1080'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1119%26quot%3b)' fill='none'%3e%3crect width='1920' height='1080' x='0' y='0' fill='rgba(0%2c 0%2c 0%2c 1)'%3e%3c/rect%3e%3cpath d='M644 849L-472 848' stroke-width='6' stroke='url(%23SvgjsLinearGradient1120)' stroke-linecap='round' class='Right'%3e%3c/path%3e%3cpath d='M1039 902L360 901' stroke-width='6' stroke='url(%23SvgjsLinearGradient1120)' stroke-linecap='round' class='Right'%3e%3c/path%3e%3cpath d='M220 729L1582 728' stroke-width='10' stroke='url(%23SvgjsLinearGradient1121)' stroke-linecap='round' class='Right'%3e%3c/path%3e%3cpath d='M1117 183L479 182' stroke-width='10' stroke='url(%23SvgjsLinearGradient1122)' stroke-linecap='round' class='Left'%3e%3c/path%3e%3cpath d='M1535 656L2605 655' stroke-width='6' stroke='url(%23SvgjsLinearGradient1122)' stroke-linecap='round' class='Left'%3e%3c/path%3e%3cpath d='M229 875L-811 874' stroke-width='8' stroke='url(%23SvgjsLinearGradient1123)' stroke-linecap='round' class='Left'%3e%3c/path%3e%3cpath d='M1179 1059L101 1058' stroke-width='10' stroke='url(%23SvgjsLinearGradient1123)' stroke-linecap='round' class='Left'%3e%3c/path%3e%3cpath d='M1543 427L2865 426' stroke-width='10' stroke='url(%23SvgjsLinearGradient1122)' stroke-linecap='round' class='Left'%3e%3c/path%3e%3cpath d='M1069 937L2236 936' stroke-width='6' stroke='url(%23SvgjsLinearGradient1123)' stroke-linecap='round' class='Left'%3e%3c/path%3e%3cpath d='M1277 738L2001 737' stroke-width='6' stroke='url(%23SvgjsLinearGradient1122)' stroke-linecap='round' class='Left'%3e%3c/path%3e%3cpath d='M1858 25L2452 24' stroke-width='8' stroke='url(%23SvgjsLinearGradient1121)' stroke-linecap='round' class='Right'%3e%3c/path%3e%3cpath d='M1358 1070L2623 1069' stroke-width='6' stroke='url(%23SvgjsLinearGradient1123)' stroke-linecap='round' class='Left'%3e%3c/path%3e%3cpath d='M930 134L1926 133' stroke-width='10' stroke='url(%23SvgjsLinearGradient1123)' stroke-linecap='round' class='Left'%3e%3c/path%3e%3cpath d='M293 969L1578 968' stroke-width='6' stroke='url(%23SvgjsLinearGradient1120)' stroke-linecap='round' class='Right'%3e%3c/path%3e%3cpath d='M855 740L-239 739' stroke-width='6' stroke='url(%23SvgjsLinearGradient1122)' stroke-linecap='round' class='Left'%3e%3c/path%3e%3cpath d='M1556 45L1001 44' stroke-width='8' stroke='url(%23SvgjsLinearGradient1120)' stroke-linecap='round' class='Right'%3e%3c/path%3e%3cpath d='M1002 79L20 78' stroke-width='6' stroke='url(%23SvgjsLinearGradient1120)' stroke-linecap='round' class='Right'%3e%3c/path%3e%3cpath d='M191 610L-871 609' stroke-width='6' stroke='url(%23SvgjsLinearGradient1122)' stroke-linecap='round' class='Left'%3e%3c/path%3e%3cpath d='M1065 753L6 752' stroke-width='10' stroke='url(%23SvgjsLinearGradient1123)' stroke-linecap='round' class='Left'%3e%3c/path%3e%3cpath d='M683 640L1726 639' stroke-width='8' stroke='url(%23SvgjsLinearGradient1122)' stroke-linecap='round' class='Left'%3e%3c/path%3e%3cpath d='M1197 950L57 949' stroke-width='6' stroke='url(%23SvgjsLinearGradient1121)' stroke-linecap='round' class='Right'%3e%3c/path%3e%3cpath d='M1751 282L3020 281' stroke-width='6' stroke='url(%23SvgjsLinearGradient1123)' stroke-linecap='round' class='Left'%3e%3c/path%3e%3cpath d='M1669 983L2237 982' stroke-width='6' stroke='url(%23SvgjsLinearGradient1123)' stroke-linecap='round' class='Left'%3e%3c/path%3e%3cpath d='M1316 385L627 384' stroke-width='8' stroke='url(%23SvgjsLinearGradient1123)' stroke-linecap='round' class='Left'%3e%3c/path%3e%3cpath d='M427 972L-136 971' stroke-width='10' stroke='url(%23SvgjsLinearGradient1120)' stroke-linecap='round' class='Right'%3e%3c/path%3e%3cpath d='M1409 295L2774 294' stroke-width='8' stroke='url(%23SvgjsLinearGradient1123)' stroke-linecap='round' class='Left'%3e%3c/path%3e%3cpath d='M937 910L1655 909' stroke-width='6' stroke='url(%23SvgjsLinearGradient1122)' stroke-linecap='round' class='Left'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1119'%3e%3crect width='1920' height='1080' fill='white'%3e%3c/rect%3e%3c/mask%3e%3clinearGradient x1='0%25' y1='0%25' x2='100%25' y2='0%25' id='SvgjsLinearGradient1120'%3e%3cstop stop-color='rgba(57%2c 57%2c 57%2c 0)' offset='0'%3e%3c/stop%3e%3cstop stop-color='rgba(57%2c 57%2c 57%2c 1)' offset='1'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='0%25' y1='0%25' x2='100%25' y2='0%25' id='SvgjsLinearGradient1121'%3e%3cstop stop-color='rgba(45%2c 45%2c 45%2c 0)' offset='0'%3e%3c/stop%3e%3cstop stop-color='rgba(45%2c 45%2c 45%2c 1)' offset='1'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='100%25' y1='0%25' x2='0%25' y2='0%25' id='SvgjsLinearGradient1122'%3e%3cstop stop-color='rgba(57%2c 57%2c 57%2c 0)' offset='0'%3e%3c/stop%3e%3cstop stop-color='rgba(57%2c 57%2c 57%2c 1)' offset='1'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='100%25' y1='0%25' x2='0%25' y2='0%25' id='SvgjsLinearGradient1123'%3e%3cstop stop-color='rgba(45%2c 45%2c 45%2c 0)' offset='0'%3e%3c/stop%3e%3cstop stop-color='rgba(45%2c 45%2c 45%2c 1)' offset='1'%3e%3c/stop%3e%3c/linearGradient%3e%3c/defs%3e%3c/svg%3e");
 }
+
+.grid-container{
+    display: grid;
+    margin-left: 5%;
+    margin-right: 7%;
+    margin-top: 4%;
+    grid-template-columns: 38% 62%;
+    grid-gap: 5%;
+}
+
+.skill-rect{
+    aspect-ratio: 10/5;
+    background-color: transparent;
+    box-shadow: rgba(90, 90, 90, 0.25) 0px 50px 100px -20px, rgba(114, 113, 113, 0.3) 0px 30px 60px -30px, rgba(145, 145, 145, 0.35) 0px -2px 6px 0px inset;
+    backdrop-filter: blur(10px);
+    border-radius: 1.5rem;
+}
+
+.big-rect{
+    aspect-ratio: 10/3.1;
+    background-color: transparent;
+    box-shadow: rgba(90, 90, 90, 0.25) 0px 50px 100px -20px, rgba(114, 113, 113, 0.3) 0px 30px 60px -30px, rgba(145, 145, 145, 0.35) 0px -2px 6px 0px inset;
+    backdrop-filter: blur(10px);
+    border-radius: 1.5rem;
+}
+
+.Porttitle{
+    padding-top: 5.5vh;
+    text-align: center;
+    color: white;
+    font-weight: 600;
+    font-size: 4vw;
+    text-decoration-line: underline;
+    text-decoration-style: dotted;
+    text-underline-offset: 15px;
+}
+
+.grid-skill-container{
+    display: grid;
+    margin-left: 5%;
+    margin-right: 7%;
+    margin-top: 2%;
+    grid-template-columns: 100%;
+    grid-gap: 5%;
+}
+
+.grid-projp-container{
+    display: grid;
+    margin-top: 2%;
+    grid-template-columns: 100%;
+    grid-gap: 5%;
+}
+
+
+.grid-proj-container{
+    display: grid;
+    margin-left: 4%;
+    margin-right: 7%;
+    margin-top: 2%;
+    grid-template-columns: 45% 50%;
+    grid-gap: 5%;
+}
+
+.grid-projj-container{
+    display: grid;
+    margin-left: 4%;
+    margin-right: 8%;
+    margin-top: 2%;
+    grid-template-columns: 50% 45%;
+    grid-gap: 5%;
+}
+
+.ST{
+    color: white;
+    font-weight: bold;
+    font-size: 2vw;
+}
+.SPoints{
+    color: white;
+    font-size: 1vw;
+}
+
+.arm{
+    position: relative;
+    top: 50%;
+    transform: translateY(-45%);
+    width: 26vw;
+    height: 13vw;
+    border-radius: 1.5rem;
+}
+
+.fit{
+    position: relative;
+    top: 50%;
+    left: 77%;
+    transform: translate(-50%, -51%);
+    width: 15vw;
+    height: 15vw;
+    border-radius: 1.2rem;
+}
+

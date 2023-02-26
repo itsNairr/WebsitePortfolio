@@ -1,10 +1,9 @@
 .Footer {
-    background-color: rgb(33, 33, 33);
-    position: sticky;
-    top: 100vh;
+    background-color: black;
+    position: relative;
     width: 100vw;
     height: 40vh;
-    bottom: 0;      
+    bottom: 0;    
 }
 
 .Contact > .GitHub {
@@ -143,25 +142,6 @@
     color: #FFFFFF;
 }
 
-.Contact > .Line1{
-    position: absolute;
-    width: 100%;
-    height: 0px;
-
-    border: 4px solid #FFFFFF;
-}
-/* 
-.Contact > .Line2{
-    position: absolute;
-    left: 160px;
-    right: 2%;
-    top: 93%;
-    bottom: 4.5%;
-    width: 0.5;
-    height: 0px;
-    border: 2px solid #FFFFFF;
-    border-radius: 1.5rem;
-} */
 
 .nameBox{
     position: absolute;
@@ -175,6 +155,7 @@
     border-radius: 8px;
     resize: none;
     font-size: 1vw;
+    box-shadow: rgba(209, 209, 209, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
 
 .emailBox{
@@ -189,6 +170,7 @@
     border-radius: 8px;
     resize: none;
     font-size: 1vw;
+    box-shadow: rgba(209, 209, 209, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
 
 .messageBox{
@@ -203,6 +185,7 @@
     border-radius: 8px;
     resize: none;
     font-size: 1vw;
+    box-shadow: rgba(209, 209, 209, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
 
 

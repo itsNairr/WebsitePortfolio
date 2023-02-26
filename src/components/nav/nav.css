@@ -3,11 +3,9 @@
     transition: all 400ms ease;
 }
 .Nav{
-    background-color: transparent;
-    backdrop-filter: blur(10px);
-    opacity: 0.7;
+    background-color: black;
+    opacity: 0.3;
     transition: 5s;
-    display: flex;
     position: fixed;
     left: 2rem;
     top: 50%;
@@ -18,24 +16,19 @@
     border-radius: 2rem;
     font-size: 1.25rem;
     z-index: 1001;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: rgba(248, 248, 248, 0.25) 0px 50px 100px -20px, rgba(37, 37, 37, 0.3) 0px 30px 60px -30px, rgba(145, 145, 145, 0.35) 0px -2px 6px 0px inset;
 }
-
 .Logos{
-    /* background-color: blue; */
-    padding: 5px;
-    display: flex;/* Flex box to allign logos */
-    flex-direction: column;
+    display: grid;/* Flex box to allign logos */
     justify-content: space-evenly;
-    align-items: center;
     height: 100%;
 }
 
 .Label{
-    display: flex;
+    display: grid;
     position: absolute;
     flex-direction: column;
-    justify-content: space-evenly;
+    align-items: center;
     left: 3.25rem;
     top: 50%;
     height: 100%;
@@ -46,7 +39,7 @@
 
 .Label > *{
     background-color: transparent;
-    backdrop-filter: blur(10px);
+    color: white;
     text-align: center;
     font-weight: bold;
     padding: 4px;
@@ -57,6 +50,7 @@
 
 .Logos > * { /* Direct children of logos aka the individual icons */
     background-color: transparent;
+    color: white;
     width: 13%;
     height: 100%;
     border-radius: 1.5rem;
@@ -70,7 +64,6 @@
 .Nav:hover{
     opacity: 1;
     transition: 1s;
-    background-color: white;
 }
 
 .open {

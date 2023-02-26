@@ -11,11 +11,6 @@
 }
 
 :root {
-    --color-bg: lightgrey;
-    --color-bg-varient: white;
-    --color-primary: black;
-    --color-primary-varient: grey;
-    --color-light: rgba(255,255,255,0.6);
     --white: white;
 
     --containerwidth-lg: 75%;
@@ -34,6 +29,7 @@ html { /* Allows smooth scrolling */
 }
 /* sets the font */
 body {
+    background-color: white;
     font-family: 'Inter', sans-serif;
     color: var(--textc);
     line-height: 1.7;
@@ -47,12 +43,12 @@ body {
 
 .background {
     position:absolute;
-      
-    display:block;
+
       
     top: 0;
       
     left: 0;
+
       
     z-index: 0;
     }

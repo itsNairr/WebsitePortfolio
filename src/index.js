@@ -13,8 +13,9 @@ window.onload= function() {
   Particles.init
 ({
     selector: '.background',
-    maxParticles: 100,
-    connectParticles: false
+    maxParticles: 200,
+    color: '#ffffff',
+    connectParticles: false,
   });
 };
 const container = document.querySelector('#root');

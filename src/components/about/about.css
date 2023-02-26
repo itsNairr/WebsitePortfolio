@@ -1,7 +1,8 @@
 .About{
-        background-image: url(/src/assets/about.svg);
+        /* background-image: url(/src/assets/about.svg); */
         height: 100vh;
         background-size: cover;
+        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1920' height='1080' preserveAspectRatio='none' viewBox='0 0 1920 1080'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1104%26quot%3b)' fill='none'%3e%3crect width='1920' height='1080' x='0' y='0' fill='rgba(0%2c 0%2c 0%2c 1)'%3e%3c/rect%3e%3cpath d='M904 797L-347 796' stroke-width='6' stroke='url(%23SvgjsLinearGradient1105)' stroke-linecap='round' class='Right'%3e%3c/path%3e%3cpath d='M184 215L1339 214' stroke-width='10' stroke='url(%23SvgjsLinearGradient1105)' stroke-linecap='round' class='Right'%3e%3c/path%3e%3cpath d='M1030 124L-319 123' stroke-width='8' stroke='url(%23SvgjsLinearGradient1106)' stroke-linecap='round' class='Left'%3e%3c/path%3e%3cpath d='M1880 1017L905 1016' stroke-width='6' stroke='url(%23SvgjsLinearGradient1106)' stroke-linecap='round' class='Left'%3e%3c/path%3e%3cpath d='M1533 639L2699 638' stroke-width='8' stroke='url(%23SvgjsLinearGradient1107)' stroke-linecap='round' class='Left'%3e%3c/path%3e%3cpath d='M784 247L-414 246' stroke-width='8' stroke='url(%23SvgjsLinearGradient1105)' stroke-linecap='round' class='Right'%3e%3c/path%3e%3cpath d='M1429 29L2312 28' stroke-width='10' stroke='url(%23SvgjsLinearGradient1107)' stroke-linecap='round' class='Left'%3e%3c/path%3e%3cpath d='M99 74L1009 73' stroke-width='8' stroke='url(%23SvgjsLinearGradient1108)' stroke-linecap='round' class='Right'%3e%3c/path%3e%3cpath d='M258 337L1005 336' stroke-width='10' stroke='url(%23SvgjsLinearGradient1105)' stroke-linecap='round' class='Right'%3e%3c/path%3e%3cpath d='M1025 876L2436 875' stroke-width='6' stroke='url(%23SvgjsLinearGradient1108)' stroke-linecap='round' class='Right'%3e%3c/path%3e%3cpath d='M1097 247L2448 246' stroke-width='6' stroke='url(%23SvgjsLinearGradient1108)' stroke-linecap='round' class='Right'%3e%3c/path%3e%3cpath d='M776 939L2026 938' stroke-width='6' stroke='url(%23SvgjsLinearGradient1105)' stroke-linecap='round' class='Right'%3e%3c/path%3e%3cpath d='M557 695L1282 694' stroke-width='8' stroke='url(%23SvgjsLinearGradient1108)' stroke-linecap='round' class='Right'%3e%3c/path%3e%3cpath d='M385 409L1078 408' stroke-width='8' stroke='url(%23SvgjsLinearGradient1105)' stroke-linecap='round' class='Right'%3e%3c/path%3e%3cpath d='M1522 793L490 792' stroke-width='8' stroke='url(%23SvgjsLinearGradient1108)' stroke-linecap='round' class='Right'%3e%3c/path%3e%3cpath d='M1685 184L314 183' stroke-width='6' stroke='url(%23SvgjsLinearGradient1106)' stroke-linecap='round' class='Left'%3e%3c/path%3e%3cpath d='M735 246L2149 245' stroke-width='6' stroke='url(%23SvgjsLinearGradient1107)' stroke-linecap='round' class='Left'%3e%3c/path%3e%3cpath d='M968 359L1690 358' stroke-width='8' stroke='url(%23SvgjsLinearGradient1105)' stroke-linecap='round' class='Right'%3e%3c/path%3e%3cpath d='M1732 857L800 856' stroke-width='8' stroke='url(%23SvgjsLinearGradient1106)' stroke-linecap='round' class='Left'%3e%3c/path%3e%3cpath d='M1402 138L15 137' stroke-width='8' stroke='url(%23SvgjsLinearGradient1108)' stroke-linecap='round' class='Right'%3e%3c/path%3e%3cpath d='M282 555L1510 554' stroke-width='8' stroke='url(%23SvgjsLinearGradient1108)' stroke-linecap='round' class='Right'%3e%3c/path%3e%3cpath d='M1321 421L-105 420' stroke-width='8' stroke='url(%23SvgjsLinearGradient1105)' stroke-linecap='round' class='Right'%3e%3c/path%3e%3cpath d='M423 599L-392 598' stroke-width='6' stroke='url(%23SvgjsLinearGradient1107)' stroke-linecap='round' class='Left'%3e%3c/path%3e%3cpath d='M1839 346L502 345' stroke-width='10' stroke='url(%23SvgjsLinearGradient1106)' stroke-linecap='round' class='Left'%3e%3c/path%3e%3cpath d='M1154 803L426 802' stroke-width='8' stroke='url(%23SvgjsLinearGradient1106)' stroke-linecap='round' class='Left'%3e%3c/path%3e%3cpath d='M169 33L673 32' stroke-width='6' stroke='url(%23SvgjsLinearGradient1107)' stroke-linecap='round' class='Left'%3e%3c/path%3e%3cpath d='M261 664L881 663' stroke-width='10' stroke='url(%23SvgjsLinearGradient1108)' stroke-linecap='round' class='Right'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1104'%3e%3crect width='1920' height='1080' fill='white'%3e%3c/rect%3e%3c/mask%3e%3clinearGradient x1='0%25' y1='0%25' x2='100%25' y2='0%25' id='SvgjsLinearGradient1105'%3e%3cstop stop-color='rgba(45%2c 45%2c 45%2c 0)' offset='0'%3e%3c/stop%3e%3cstop stop-color='rgba(45%2c 45%2c 45%2c 1)' offset='1'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='100%25' y1='0%25' x2='0%25' y2='0%25' id='SvgjsLinearGradient1106'%3e%3cstop stop-color='rgba(45%2c 45%2c 45%2c 0)' offset='0'%3e%3c/stop%3e%3cstop stop-color='rgba(45%2c 45%2c 45%2c 1)' offset='1'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='100%25' y1='0%25' x2='0%25' y2='0%25' id='SvgjsLinearGradient1107'%3e%3cstop stop-color='rgba(57%2c 57%2c 57%2c 0)' offset='0'%3e%3c/stop%3e%3cstop stop-color='rgba(57%2c 57%2c 57%2c 1)' offset='1'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='0%25' y1='0%25' x2='100%25' y2='0%25' id='SvgjsLinearGradient1108'%3e%3cstop stop-color='rgba(57%2c 57%2c 57%2c 0)' offset='0'%3e%3c/stop%3e%3cstop stop-color='rgba(57%2c 57%2c 57%2c 1)' offset='1'%3e%3c/stop%3e%3c/linearGradient%3e%3c/defs%3e%3c/svg%3e");
 }
 
 .About > .Aboutrect{
@@ -10,28 +11,29 @@
         width: 100%;
         height: 100%;
         /* backdrop-filter: blur(10px);
-        transform: translate(-50%, -50%);
         border-radius: 2.5rem;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
     }
 
 .Abouttitle{
-        padding-top: 5.5vh;
+        padding-top: 9vh;
         text-align: center;
-        color: black;
-        font-weight: 900;
-        font-size: 5vw;
+        color: white;
+        font-weight: 600;
+        font-size: 4vw;
         text-decoration-line: underline;
         text-decoration-style: dotted;
         text-underline-offset: 15px;
+        
 }
 
 .Aboutp{
-        color: black;
+        color: white;
         position: absolute;
         top: 25%;
         left: 25%;
         right: 25%;
+        scale: 0.85;
         font-weight:400;
         font-size: 1.5vw;
         text-align: center;
@@ -39,15 +41,16 @@
         backdrop-filter: blur(10px);
         padding: 1rem;
         border-radius: 2.5rem;
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        box-shadow: rgba(248, 248, 248, 0.25) 0px 50px 100px -20px, rgba(37, 37, 37, 0.3) 0px 30px 60px -30px, rgba(145, 145, 145, 0.35) 0px -2px 6px 0px inset;
 }
 
 .Aboutp1{
-        color: black;
+        color: white;
         position: absolute;
         top: 40%;
         left: 22%;
         right: 22%;
+        scale: 0.85;
         font-weight:400;
         font-size: 1.5vw;
         text-align: center;
@@ -55,15 +58,16 @@
         backdrop-filter: blur(10px);
         padding: 1rem;
         border-radius: 2.5rem;
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        box-shadow: rgba(248, 248, 248, 0.25) 0px 50px 100px -20px, rgba(37, 37, 37, 0.3) 0px 30px 60px -30px, rgba(145, 145, 145, 0.35) 0px -2px 6px 0px inset;
 }
 
 .Aboutp2{
-        color: black;
+        color: white;
         position: absolute;
         top: 55%;
         left: 22%;
         right: 22%;
+        scale: 0.85;
         font-weight:400;
         font-size: 1.5vw;
         text-align: center;
@@ -71,39 +75,41 @@
         backdrop-filter: blur(10px);
         padding: 1rem;
         border-radius: 2.5rem;
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        box-shadow: rgba(248, 248, 248, 0.25) 0px 50px 100px -20px, rgba(37, 37, 37, 0.3) 0px 30px 60px -30px, rgba(145, 145, 145, 0.35) 0px -2px 6px 0px inset;
 }
 
 .Aboutp3{
-        color: black;
+        color: white;
         position: absolute;
         top: 70%;
         left: 20%;
         right: 20%;
         font-weight:400;
         font-size: 1.5vw;
+        scale: 0.85;
         text-align: center;
         background-color: transparent;
         backdrop-filter: blur(10px);
         padding: 1rem;
         border-radius: 2.5rem;
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        box-shadow: rgba(248, 248, 248, 0.25) 0px 50px 100px -20px, rgba(37, 37, 37, 0.3) 0px 30px 60px -30px, rgba(145, 145, 145, 0.35) 0px -2px 6px 0px inset;
 }
 
 .Aboutp4{
-        color: black;
+        color: white;
         position: absolute;
         top: 85%;
         left: 12%;
         right: 12%;
         font-weight:400;
         font-size: 1.5vw;
+        scale: 0.85;
         text-align: center;
         background-color: transparent;
         backdrop-filter: blur(10px);
         padding: 1rem;
         border-radius: 2.5rem;
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        box-shadow: rgba(248, 248, 248, 0.25) 0px 50px 100px -20px, rgba(37, 37, 37, 0.3) 0px 30px 60px -30px, rgba(145, 145, 145, 0.35) 0px -2px 6px 0px inset;
 }
 
 .bold{

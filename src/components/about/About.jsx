@@ -9,7 +9,7 @@ const About = () => {
   return (
     <div id="about" className='About'>
       <div className='Aboutrect'>
-      <div data-aos='fade-up'className='Abouttitle'>About</div>
+      <div data-aos='fade-up'className='Porttitle'>About</div>
       <p data-aos='fade-right' data-aos-duration="1000" className='Aboutp'>
       • I'm an ambitious <span className='bold'>engineering</span> student from Barrie, Ontario
       </p>

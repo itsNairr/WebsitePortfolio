@@ -15,11 +15,11 @@
     position: absolute;
     left: 50%;
     top: 30%;
-    width: 38.5vw;
+    width: 53.75vw;
     color: white;
     
     font-weight: 600;
-    font-size: 5vw;
+    font-size: 7vw;
     transform: translate(-50%);
 
     overflow: hidden;
@@ -55,15 +55,30 @@
     top: 55%;
     
     font-weight: 600;
-    font-size: 3vw;
+    font-size: 3vh;
     transform: translate(-50%);
 }
 
 @keyframes typewriter{
   from{width: 0;}
-  to{width: 38.5vw;}
+  to{width: 53.75vw;}
 }
 @keyframes blinkTextCursor{
   from{border-right-color: white;}
   to{border-right-color: transparent;}
 }
+
+@media screen and (min-width: 1020px){
+  .Intro3{
+    color: white;
+    font-size: 6vh;
+  }
+}
+
+@media screen and (max-width: 1020px) and (min-width: 820px){
+  .Intro3{
+    color: white;
+    font-size: 5vh;
+  }
+}
+

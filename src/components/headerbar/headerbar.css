@@ -10,13 +10,16 @@
 
 .Barmain > .Download{
     position: absolute;
-    background-color: transparent;
-    font-size: medium;
+    background-color: transparent;;
     font-weight: bolder;
     margin-left: 1%;
     top: 50%;
     transform: translateY(-50%);
     color: white;
+}
+
+.DT{
+    
 }
 
 .Download:hover{
@@ -44,4 +47,32 @@
 
 .Logo:hover{
     transform: translate(-50%, -50%) rotate(360deg);
+}
+
+@media screen and (min-width: 1020px){
+    .Barmain > .Download{
+        position: absolute;
+        background-color: transparent;
+        font-size: 17px;
+    }
+  }
+  
+@media screen and (max-width: 1020px) and (min-width: 820px){
+    .Barmain > .Download{
+    position: absolute;
+    background-color: transparent;
+    font-size: 17px;
+    }
+  }
+
+@media screen and (max-width: 820px){
+    .DT{
+        display: none;
+    }
+    .Barmain > .Download{
+        position: absolute;
+        background-color: transparent;
+        font-size: 30px;
+        left: 2%;
+    }
 }

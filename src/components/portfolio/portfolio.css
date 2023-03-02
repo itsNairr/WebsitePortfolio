@@ -30,17 +30,6 @@
     border-radius: 1.5rem;
 }
 
-.Porttitle{
-    padding-top: 5.5vh;
-    text-align: center;
-    color: white;
-    font-weight: 600;
-    font-size: 4vw;
-    text-decoration-line: underline;
-    text-decoration-style: dotted;
-    text-underline-offset: 15px;
-}
-
 .grid-skill-container{
     display: grid;
     margin-left: 5%;
@@ -81,6 +70,7 @@
     font-weight: bold;
     font-size: 2vw;
 }
+
 .SPoints{
     color: white;
     font-size: 1vw;

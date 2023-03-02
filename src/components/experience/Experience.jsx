@@ -3,7 +3,9 @@ import './experience.css'
 
 const Experience = () => {
   return (
-    <div id="experience" className='Experience'>Experience</div>
+    <div id="experience" className='Experience'>
+      <div data-aos='fade-up'className='Porttitle'>Experience</div> 
+    </div>
   )
 }
 

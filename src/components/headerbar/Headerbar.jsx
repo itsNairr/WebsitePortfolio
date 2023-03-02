@@ -7,7 +7,7 @@ export const Headerbar = () => {
     <div className='Barmain'>
     <div className='Bar'/>
     <a href='Hari Nair Resume 2023.pdf' className='Download'download>
-      <FiDownload/> Download Resume
+      <FiDownload/> <span className='DT'>Download Resume</span>
       </a>
     <div className='Logo'>
     <img src="logo.png" width={50} height={50} alt=""/>

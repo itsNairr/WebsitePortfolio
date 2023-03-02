@@ -248,3 +248,15 @@
     resize: none;
     font-size: 0.75vw;
 }
+
+@media screen and (min-width: 1020px){
+
+  }
+  
+@media screen and (max-width: 1020px) and (min-width: 820px){
+
+  }
+
+@media screen and (max-width: 820px){
+
+}

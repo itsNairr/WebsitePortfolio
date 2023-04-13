@@ -36,7 +36,7 @@ const Footer = () => {
         <textarea  //Name
         placeholder="Enter name" 
         data-aos="zoom-in"
-        data-aos-duration="1000"
+        data-aos-duration="2000"
         maxLength={50} 
         className="nameBox" 
         type="text"
@@ -46,7 +46,7 @@ const Footer = () => {
         placeholder="Enter email" 
         maxLength={50} 
         data-aos="zoom-in"
-        data-aos-duration="1000"
+        data-aos-duration="2000"
         className="emailBox" 
         type="text"
         {...register("email", { required: true, pattern: /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i })}
@@ -54,10 +54,8 @@ const Footer = () => {
         {errors.email && <span class="Error">Invalid Email, Try again!</span>}
         <textarea //Message
         type="text" 
-        rows="20" 
         data-aos="zoom-in"
-        data-aos-duration="1000"
-        cols="50" 
+        data-aos-duration="2000"
         placeholder="Enter message" 
         maxLength={1000} 
         className="messageBox"

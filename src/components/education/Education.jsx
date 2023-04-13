@@ -4,9 +4,9 @@ import './education.css'
 const Education = () => {
   return (
     <div id="education" className='Education'>
-      <div data-aos-duration="1000" data-aos='fade-up'className='Porttitle'>Education</div> 
+      <div data-aos-duration="2000" data-aos='fade-up'className='Edutitle'>Education</div> 
       <div className="grid-edu-container">
-      <div data-aos-duration="1000" data-aos='fade-up' className='edu-rect'>
+      <div data-aos-duration="2000" data-aos='fade-up' className='edu-rect'>
       <div className="grid-edut-container">
           <span className="EdT">Mechatronics & Robotics Engineering - Queen's University</span>
           <span className="EPoints">• GPA: 3.7</span>

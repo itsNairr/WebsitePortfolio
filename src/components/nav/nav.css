@@ -3,6 +3,7 @@
     transition: all 400ms ease;
 }
 .Nav{
+    display: none;
     background-color: black;
     opacity: 0.3;
     transition: 5s;
@@ -77,4 +78,10 @@
 
 .Logos > *:active{
     opacity : 0.3;
+}
+
+@media screen and (min-width: 520px){
+    .Nav{
+        display: inline;
+    }
 }

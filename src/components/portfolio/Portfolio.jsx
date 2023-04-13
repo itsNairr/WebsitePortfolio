@@ -6,7 +6,7 @@ const Portfolio = () => {
     <div id="portfolio" className='Portfolio'>
       <div data-aos='fade-up'className='Porttitle'>Skills and Work</div> 
       <div className="grid-container">
-        <div data-aos="fade-down-right" data-aos-duration="1000" className='skill-rect'>
+        <div data-aos="fade-down-right" data-aos-duration="2000" className='skill-rect'>
         <div className="grid-skill-container">
           <span className="ST">Skills</span>
           <span className="SPoints"><span className="bold">Programming:</span> Java, C/C++, JavaScript, React, CSS, HTML, ROS2, Arduino, MATLAB, Object-Oriented Programming</span>
@@ -15,7 +15,7 @@ const Portfolio = () => {
           <span className="SPoints"><span className="bold">Office Suite:</span> Word, Excel, PowerPoint</span>
         </div>
         </div>
-        <div data-aos="fade-down-left" data-aos-duration="1000" className='big-rect'>
+        <div data-aos="fade-down-left" data-aos-duration="2000" className='big-rect'>
         <div className="grid-proj-container">
         <div>
         <div className="ST">Robotic Arm</div>
@@ -29,7 +29,7 @@ const Portfolio = () => {
         <img className='arm' src="arm.jpg" alt=""/>
         </div>
         </div>
-        <div data-aos="fade-up-right" data-aos-duration="1000" className='skill-rect'>
+        <div data-aos="fade-up-right" data-aos-duration="2000" className='skill-rect'>
         <div className="grid-skill-container">
           <span className="ST">Smaller Projects</span>
           <span className="SPoints">• VEX-IQ Robots</span>
@@ -38,11 +38,11 @@ const Portfolio = () => {
           <span className="SPoints">• Data Structures and Algorithm implementations in Arduino</span>
         </div>
         </div>
-        <div data-aos="fade-up-left" data-aos-duration="1000" className='big-rect'>
+        <div data-aos="fade-up-left" data-aos-duration="2000" className='big-rect'>
         <div className="grid-projj-container">
         <div>
-        <div className="ST">Fitness App</div>
         <div className="grid-projp-container">
+        <div className="ST">Fitness App</div>
         <span className="SPoints">• Programmed with HTML, React Native, Rust</span>
         <span className="SPoints">• Personal Fitness app for users to track workouts</span>
         <span className="SPoints">• Ability to share workouts with one another</span>

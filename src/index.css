@@ -13,43 +13,36 @@
 
 :root {
     --white: white;
-
-    --containerwidth-lg: 75%;
-    --containerwidth-med: 86%;
-    --containerwidth-small: 90%;
-
     --transition: all 400ms ease;
 }
 
 html { /* Allows smooth scrolling */
     scroll-behavior: smooth;
+    overscroll-behavior: none;
+    scroll-snap-stop: always;
 }
 
 ::-webkit-scrollbar { /* disables the scrollbar appearance */
     display: none;
 }
+
 /* sets the font */
 body {
-    background-color: white;
+    background-color: black;
     font-family: 'Inter', sans-serif;
     color: var(--textc);
     line-height: 1.7;
-    /*background-image: url(../src/assets/dots1.png); */
+    -ms-overflow-style: none;
+    max-width: 100%;
+    overflow-x: hidden;
+    overflow-y:auto;
+    min-height:500px;
 }
 
 /* GENERAL============================================================================================ */
-
-.Content{
-}
-
 .background {
     position:absolute;
-
-      
-    top: 0;
-      
+    top: 0; 
     left: 0;
-
-      
     z-index: 0;
     }

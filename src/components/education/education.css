@@ -7,8 +7,7 @@
 }
 
 .grid-edu-container{
-    display: grid;
-    grid-auto-rows: auto;
+    display:block;
     margin-left:7%;
     margin-right: 7%;
     margin-top: 4%;
@@ -29,24 +28,24 @@
 .EdT{
     color: white;
     font-weight: bold;
-    font-size: 3vh;
+    font-size: 2.8vh;
 }
 
 .EPoints{
     color: white;
-    font-size: 2.3vh;
+    font-size: 1.8vh;
 }
 
 .edu-rect{
-    height: 60vh;
+    height: 50vh;
     background-color: transparent;
     box-shadow: rgba(90, 90, 90, 0.25) 0px 50px 100px -20px, rgba(114, 113, 113, 0.3) 0px 30px 60px -30px, rgba(145, 145, 145, 0.35) 0px -2px 6px 0px inset;
     backdrop-filter: blur(10px);
     border-radius: 1.5rem;
 }
 
-.Porttitle{
-    padding-top: 5.5vh;
+.Edutitle{
+    padding-top: 25%;
     text-align: center;
     color: white;
     font-weight: 600;
@@ -56,7 +55,7 @@
     text-underline-offset: 15px;
 }
 
-@media screen and (min-width: 1020px){
+@media screen and (min-width: 720px){
     .EdT{
         color: white;
         font-weight: bold;
@@ -64,28 +63,42 @@
     }
     .EPoints{
         color: white;
-        font-weight: bold;
-        font-size: 3vh;
+        font-size: 2.6vh;
     }
-    .Porttitle{
+    .Edutitle{
+        padding-top: 5%;
         color: white;
         font-size: 7vh;
     }
+    .edu-rect{
+        height: 65vh;
+    }
 }
 
-@media screen and (max-width: 1020px) and (min-width: 620px){
+@media screen and (max-width: 720px) and (min-width: 620px){
     .EdT{
+        padding-top: 10%;
         color: white;
         font-weight: bold;
         font-size: 4vh;
     }
     .EPoints{
         color: white;
-        font-weight: bold;
         font-size: 2.5vh;
     }
-    .Porttitle{
+    .Edutitle{
         color: white;
-        font-size: 5vh
+        font-size: 5vh;
     }
+}
+
+@media screen and (max-height: 670px) and (max-width: 620px){
+        .Edutitle{
+            padding-top: 48%;
+            color: white;
+            font-size: 5vh;
+        }
+        .edu-rect{
+            height: 40vh;
+        }
 }
